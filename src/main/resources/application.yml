@@ -1,0 +1,16 @@
+server:
+  port: 8280
+  context-path: /
+  
+
+spring:
+   datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://47.102.113.146:3306/db_jxc2
+      username: root
+      password: 123456
+   jpa:
+     hibernate.ddl-auto: update
+     show-sql: true
+   thymeleaf:
+    cache: false
